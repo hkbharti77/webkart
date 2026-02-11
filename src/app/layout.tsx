@@ -46,6 +46,7 @@ export const metadata: Metadata = {
 
 import Footer from "@/components/Footer";
 import { ThemeProvider } from "@/components/ThemeProvider";
+import ScrollProgress from "@/components/ScrollProgress";
 
 // ... existing imports
 
@@ -57,6 +58,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={inter.variable} suppressHydrationWarning>
       <body className="antialiased bg-background text-foreground font-sans">
+        <ScrollProgress />
         <ThemeProvider
           attribute="class"
           defaultTheme="light"

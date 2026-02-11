@@ -41,10 +41,10 @@ export default function Services() {
         <section id="services" className="py-20 bg-gray-50 dark:bg-gray-900 transition-colors">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center mb-16">
-                    <FadeIn direction="up">
+                    <FadeIn direction="up" width="100%">
                         <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4">Our Services</h2>
                     </FadeIn>
-                    <FadeIn direction="up" delay={0.2}>
+                    <FadeIn direction="up" delay={0.2} width="100%">
                         <p className="text-xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
                             Comprehensive digital solutions tailored to your business needs.
                         </p>

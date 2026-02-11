@@ -20,7 +20,7 @@ export default function Hero() {
             </div>
 
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
-                <FadeIn direction="up" delay={0.2} duration={0.8}>
+                <FadeIn direction="none" delay={0.1} duration={0.8} width="100%">
                     <h1 className="text-5xl md:text-7xl font-bold tracking-tight mb-8 dark:text-white">
                         Build Your Digital <br />
                         <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
@@ -29,7 +29,7 @@ export default function Hero() {
                     </h1>
                 </FadeIn>
 
-                <FadeIn direction="up" delay={0.4} duration={0.8}>
+                <FadeIn direction="none" delay={0.2} duration={0.8} width="100%">
                     <p className="mt-4 text-xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto mb-10">
                         We craft high-performance websites and digital strategies that drive growth and engagement for your business.
                     </p>

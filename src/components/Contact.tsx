@@ -45,12 +45,12 @@ export default function Contact() {
         <section id="contact-form" className="py-20 bg-gray-50 dark:bg-gray-900 transition-colors">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center mb-16">
-                    <FadeIn direction="up">
+                    <FadeIn direction="up" width="100%">
                         <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4">
                             Get In Touch
                         </h2>
                     </FadeIn>
-                    <FadeIn direction="up" delay={0.2}>
+                    <FadeIn direction="up" delay={0.2} width="100%">
                         <p className="text-xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
                             Have a project in mind? Let's discuss how we can help you achieve your goals.
                         </p>
@@ -61,7 +61,7 @@ export default function Contact() {
                     {/* Contact Info */}
                     <FadeIn direction="right" className="h-full">
                         <div className="bg-white dark:bg-gray-800 p-8 rounded-2xl shadow-sm border border-gray-100 dark:border-gray-700 h-full">
-                            <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-8">Contact Information</h3>
+                            <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-8 text-center">Contact Information</h3>
 
                             <div className="space-y-8">
                                 <div className="flex items-start space-x-4">

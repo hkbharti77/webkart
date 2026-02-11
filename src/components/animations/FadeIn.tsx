@@ -1,12 +1,12 @@
 "use client";
 
-import { motion, useInView, useAnimation, Variant } from "framer-motion";
+import { motion, useInView, useAnimation } from "framer-motion";
 import { useRef, useEffect } from "react";
 
 interface Props {
     children: React.ReactNode;
     width?: "100%" | "fit-content";
-    direction?: "up" | "down" | "left" | "right";
+    direction?: "up" | "down" | "left" | "right" | "none";
     delay?: number;
     duration?: number;
     className?: string;
@@ -47,13 +47,13 @@ export default function FadeIn({
             transition: {
                 duration: duration,
                 delay: delay,
-                ease: "easeOut" as any, // Cast to any to avoid strict Easing type mismatch
+                ease: "easeOut" as any,
             },
         },
     };
 
     return (
-        <div ref={ref} style={{ width, overflow: "hidden" }} className={className}>
+        <div ref={ref} style={{ width }} className={className}>
             <motion.div
                 variants={variants}
                 initial="hidden"
