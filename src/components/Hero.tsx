@@ -20,7 +20,7 @@ export default function Hero() {
             </div>
 
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
-                <FadeIn direction="none" delay={0.1} duration={0.8} width="100%">
+                <FadeIn direction="none" delay={0} duration={0.4} width="100%">
                     <h1 className="text-5xl md:text-7xl font-bold tracking-tight mb-8 dark:text-white">
                         Build Your Digital <br />
                         <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
@@ -29,13 +29,13 @@ export default function Hero() {
                     </h1>
                 </FadeIn>
 
-                <FadeIn direction="none" delay={0.2} duration={0.8} width="100%">
+                <FadeIn direction="none" delay={0} duration={0.4} width="100%">
                     <p className="mt-4 text-xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto mb-10">
                         We craft high-performance websites and digital strategies that drive growth and engagement for your business.
                     </p>
                 </FadeIn>
 
-                <FadeIn direction="up" delay={0.6} duration={0.8}>
+                <FadeIn direction="up" delay={0} duration={0.4} width="100%">
                     <div className="flex justify-center gap-4">
                         <Link
                             href="#contact"
@@ -45,7 +45,7 @@ export default function Hero() {
                         </Link>
                         <Link
                             href="#portfolio"
-                            className="px-8 py-4 bg-white dark:bg-gray-800 text-gray-900 dark:text-white border border-gray-200 dark:border-gray-700 rounded-full font-semibold hover:border-gray-300 dark:hover:border-gray-600 hover:bg-gray-50 dark:hover:bg-gray-700 transition-all"
+                            className="px-8 py-4 bg-white dark:bg-gray-800 text-gray-900 dark:text-white border border-gray-200 dark:border-gray-700 rounded-full font-semibold hover:border-gray-300 dark:hover:border-gray-600 hover:bg-gray-50 dark:hover:bg-gray-700 transition-all font-semibold"
                         >
                             View Work
                         </Link>
